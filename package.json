@@ -4,9 +4,7 @@
   "description": "",
   "main": "addon.js",
   "scripts": {
-    ""scripts": {
-  "start": "node addon.js"
-}
+    "start": "node addon.js"
   },
   "keywords": [],
   "author": "",
