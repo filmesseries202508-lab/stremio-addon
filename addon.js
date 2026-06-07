@@ -65,8 +65,8 @@ builder.defineStreamHandler(({ id }) => {
 });
 
 serveHTTP(builder.getInterface(), {
-    port: 7000
-});
+    port: process.env.PORT || 7000
+});});
 
 console.log("Addon iniciado!");
 console.log("http://localhost:7000/manifest.json");
