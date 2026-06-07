@@ -1,5 +1,7 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
+const TMDB_TOKEN = process.env.TMDB_BEARER_TOKEN;
 
+console.log("TMDB configurado:", !!TMDB_TOKEN);
 const builder = new addonBuilder({
     id: "org.exemplo.completo",
     version: "1.0.0",
